@@ -1,19 +1,17 @@
 {
   "name": "cse341-w02",
   "version": "1.0.0",
-  "description": "team-assignment",
-  "homepage": "https://github.com/K-Marple/cse341-w02#readme",
-  "bugs": {
-    "url": "https://github.com/K-Marple/cse341-w02/issues"
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/K-Marple/cse341-w02.git"
   },
-  "license": "ISC",
   "author": "Kayli Marple",
-  "type": "commonjs",
-  "main": "server.js",
+  "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.21.2"
@@ -21,8 +19,9 @@
   "devDependencies": {
     "nodemon": "^3.1.0"
   },
-  "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
-  }
+  "bugs": {
+    "url": "https://github.com/K-Marple/cse341-w02/issues"
+  },
+  "homepage": "https://github.com/K-Marple/cse341-w02#readme",
+  "description": ""
 }
