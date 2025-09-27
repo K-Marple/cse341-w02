@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/K-Marple/cse341-w02#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0"
   }
 }

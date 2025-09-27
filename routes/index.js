@@ -1,11 +1,3 @@
-// Needed Resources
-const express = require("express");
-const router = express.Router();
-const controller = require("../controllers");
+const webRoutes = require("./webRoutes");
 
-// Route to
-router.get("/", controller.home);
-router.get("/professional", controller.professional);
-
-// Export
-module.exports = router;
+module.exports = { webRoutes };
